@@ -11,4 +11,4 @@ class transformisloga(BaseEstimator, TransformerMixin):
         # Primeiro realizamos a cópia do dataframe 'X' de entrada
         data = X.copy()
         # Retornamos um novo dataframe com log
-        return data.log1p(labels=self.colunas, axis='colunas')
+       #return   np.log1p(data[self.columns]) + data['PERFIL']???
