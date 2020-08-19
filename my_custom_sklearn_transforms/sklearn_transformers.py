@@ -16,7 +16,7 @@ class DropColumns(BaseEstimator, TransformerMixin):
         return data.drop(labels=self.columns, axis='columns')
 
     
-    class transformerlog(BaseEstimator, TransformerMixin):
+   class transformisloga(BaseEstimator, TransformerMixin):
     def __init__(self, columns):
         self.columns = columns
 
