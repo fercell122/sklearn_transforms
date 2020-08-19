@@ -27,4 +27,4 @@ class DropColumns(BaseEstimator, TransformerMixin):
         # Primeiro realizamos a cópia do dataframe 'X' de entrada
         data = X.copy()
         # Retornamos um novo dataframe com log
-        return data.np.log1p(labels=self.columns, axis='columns')
+        return data.log1p(labels=self.columns, axis='columns')
