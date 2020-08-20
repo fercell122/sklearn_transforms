@@ -1,5 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin
-
+import numpy as np
 class transformisloga(BaseEstimator, TransformerMixin):
     def __init__(self, colunas):
         self.colunas = colunas
