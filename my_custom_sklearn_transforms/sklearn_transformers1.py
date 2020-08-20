@@ -18,7 +18,7 @@ data['FALTAS']= np.log1p(data['FALTAS'])
 data['INGLES']= np.log1p(data['INGLES'])
 data['NOTA_DE']= np.log1p(data['NOTA_DE'])
 data['NOTA_EM']= np.log1p(data['NOTA_EM']) 
-ddata['NOTA_MF']= np.log1p(data['NOTA_MF'])                                                                  
+data['NOTA_MF']= np.log1p(data['NOTA_MF'])                                                                  
 data['NOTA_GO']= np.log1p(data['NOTA_GO']) 
 
 return data
